@@ -33,7 +33,7 @@ const pesquisarCep = async() => {
       preencherFormulario(endereco);
     }
   }else{
-    document.getElementById('endereco').value = 'CEP incorreto!';
+    document.getElementById('endereco').value = '';
   }
   
  
